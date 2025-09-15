@@ -28,7 +28,7 @@ Todos los dispositivos se conectan mediante la red LAN. El primer paso es config
 
 La máquina atacante Kali fue configurada con su adaptador de red en modo **Adaptador puente**, esto es importante ya que si no, el router no podrá darle una dirección IP y por lo tanto, no actuará como si fuera un dispositivo más dentro de la red.
 
-![](Configuracion_VBox.png)
+<img src="./Imágenes/Configuracion_VBox.png">
 
 Para simplificar el proceso, estas serán las direcciones IP asociadas a los distintos dispositivos. En el caso de la máquina Kali, esto se hace accediendo a la configuración de red. En el caso del otro dispositivo (en este caso Android), la dirección IP será asociada por el router empleando el protocolo DHCP, que se podrá conocer a través de la pestaña de configuración de red.
 
