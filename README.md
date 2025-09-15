@@ -33,7 +33,7 @@ La máquina atacante Kali fue configurada con su adaptador de red en modo **Adap
 Para simplificar el proceso, estas serán las direcciones IP asociadas a los distintos dispositivos. En el caso de la máquina Kali, esto se hace accediendo a la configuración de red. En el caso del otro dispositivo (en este caso Android), la dirección IP será asociada por el router empleando el protocolo DHCP, que se podrá conocer a través de la pestaña de configuración de red.
 
 - El dispositivo Android tendrá la dirección IP `192.168.100.250/24`.
-- La máquina Kali tendrá la dirección IP `192.168.251/24`. 
+- La máquina Kali tendrá la dirección IP `192.168.100.251/24`. 
 
 <center>
 <img src="./Imágenes/Conf_Android.jpg" width="50%">
