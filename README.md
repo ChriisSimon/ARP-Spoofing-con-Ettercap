@@ -123,7 +123,7 @@ Al analizar el tráfico en Wireshark, tal y como aparece en la imagen anterior, 
 
 Sin embargo, el riesgo sigue presente. Aunque el desencriptado del mensaje es difícil, este tipo de ataque puede ser todavía usado como punto de partida para amenazas más serias.
 
-Un ejemplo sería el uso de la herramienta ``Evilginx`` que permite hacer ataques de suplantación de identidad falisicando sitios web con certificados oficiales.
+Un ejemplo sería el uso de la herramienta ``Evilginx`` que permite hacer ataques de suplantación de identidad falsificando sitios web con certificados oficiales.
 
 # Posibles riesgos de ataques de ARP Spoofing
 
