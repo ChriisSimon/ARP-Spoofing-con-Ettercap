@@ -75,7 +75,7 @@ Ahora es necesario configurar los parámetros de Ettercap, entre los que se encu
 
 Ettercap funciona estableciendo dos "targets". Por un lado, el **"target 1"** será el dispositivo sobre el cuál se va a realizar el ataque y por otro, el **"target 2"** será el dispositivo que se quiere suplantar.
 
-Para este ejemplo, a máquina Kali se hará pasar por el router para interceptar toda el tráfico de red, de modo que los targets se configuran como sigue:
+Para este ejemplo, la máquina Kali se hará pasar por el router para interceptar toda el tráfico de red, de modo que los targets se configuran como sigue:
 - ``Target 1``: 192.168.100.250 (dirección IP del dispositivo Android).
 - ``Target 2``: 192.168.100.1 (dirección IP de la puerta de enlace predeterminada de la red).
 
@@ -117,7 +117,7 @@ Para ese caso no es necesario configurar nada más del servidor de Python, puest
 ## Ataque
 Tras haber accedido a una página, se vuelve a lanzar una nuevo ataque de suplantación de identidad para comprobar el comportamiento del protocolo HTTPS.
 
-<img src="./Imágenes/AjusteKali1.pngTraficoWireshark2.png">
+<img src="./Imágenes/TraficoWireshark2.png">
 
 Al analizar el tráfico en Wireshark, tal y como aparece en la imagen anterior, este aparecerá cifrado, haciendo más difícil al atacante leer el contenido, sin embargo sí que se puede ver cierta información,como que se estaba accediendo a la Wikipedia.  Este tipo de comunicación es signifcativamente más segura que usando HTTP.
 
