@@ -5,7 +5,6 @@ Este proyecto ilustra un ataque de ARP Spoofing usando la herramienta Ettercap d
 
 Para ilustrar este ejemplo, se ha diseñado un etorno virtualizado usando una máquina Kali Linux 2024, que actuará como atacante malicioso dentro de la red. Así mismo, se utilizará otro dispositivo de prueba conectado a la misma red sobre el que se realizará el ataque.
 
-
 ## Objetivo 
 El objetivo es analizar la efectividad del ataque atendiendo a diferentes protocolos, comparando el uso de HTTP (acceso inseguro) con el de HTTPS (acceso seguro) y discutir las posibles soluciones para prevenir y hacer más segura la red.
 
